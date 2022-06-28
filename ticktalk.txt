@@ -1,0 +1,20 @@
+
+num=0
+while [ $num -ne 100 ]
+ do
+   
+    ((num = num + 1))
+if [ $((num%5)) -eq 0 ] && [ $((num%3)) -eq 0 ]; then
+  echo "ticktalk"
+
+elif [ $((num%5)) -eq 0 ]; then
+  echo "tick"
+elif [ $(( num%3 )) -eq 0 ]; then
+
+  echo "tack"
+else
+   echo "veetil poda $num"
+
+fi
+
+done
