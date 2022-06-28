@@ -13,7 +13,7 @@ elif [ $(( num%3 )) -eq 0 ]; then
 
   echo "tack"
 else
-   echo "veetil poda $num"
+   echo $num
 
 fi
 
