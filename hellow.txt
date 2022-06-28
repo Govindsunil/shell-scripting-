@@ -1,14 +1,4 @@
-
-read -p "enter a number" num
-if [ $((num%5)) -eq 0 ]; then
-
-echo "number is divide by 5"
- 
-elif [ $(( num%4 )) -eq 0 ];then
-
-  echo "number divided by 4"
-
-else
-echo "number is not divisible"
-
-fi
+echo "hello"
+echo "your name" 
+read name
+echo "hello $name"
